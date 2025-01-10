@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examble</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            justify-items: center;
+            align-items: center;
+           margin: auto;
+        }
+
+          .sup{
+            color: rgb(255, 255, 255);
+            background: rgb(242, 196, 191);
+            width: 300px;
+            transform: translate(80px,0px);
+            box-shadow: 3px 5px 4px rgb(89, 65, 63);
+            border-radius: 10px;
+            border: rgb(89, 65, 63); ;
+          }
+          .sup:hover{
+           cursor: pointer;
+            background: rgb(134, 105, 101);
+            transform: translate(80px,1.5px);
+          }
+    </style>
+</head>
+<body>
+    <form action="page2.html" method="get">
+        <fieldset> 
+        <legend > اهلا بكم في صفحة منصر  </legend>
+            <label for="name"> Name    :     </label>
+            <input type="text" name="name" id="name"> 
+            <label for="pa"> Passwrd: </label>
+            <input type="password" name="pa"  id="pa"><br><br>
+            <input class="sup" type="submit" value="Send Information" onclick="location.href='page2.html'">
+        </fieldset>
+    </form>
+    <script>
+
+    </script>
+    
+</body>
+</html>
